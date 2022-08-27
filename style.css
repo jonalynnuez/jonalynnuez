@@ -1,0 +1,356 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------------Main code INDEX--------------------*/
+
+.wrappper
+{
+  height: 600px;
+  width: 1250px;
+  /*background-color: green;*/
+
+}
+header
+{
+  height: 150px;
+  width: 1280px;
+  background-color: #191d20;
+}
+h1
+{
+  text-align: center;
+}
+section
+{
+  height: 342px;
+  width: 1280px;
+  background-color:black;
+}
+footer
+{
+  height: 107px;
+  width: 1280px;
+}
+.profile
+{
+  float: left;
+  padding-left: 20px;
+}
+.profile img
+{
+  padding-left: 5px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  border-radius: 100px;
+
+}
+li a
+{
+  color: white;
+  text-decoration: none;
+}
+nav
+{
+  float: right;
+  word-spacing: 30px;
+  padding: 40px;
+}
+nav li
+{
+  display: inline-block;
+  line-height: 70px;
+}
+nav li:not(:last-child) a:hover{
+  color: #e79e47;
+  transition: .4s;
+}
+section .sec_img
+{
+  height: 500px;
+  margin-top: 0px;
+  background-image: url("images/24.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box
+{
+  height: 300px;
+  width: 550px;
+  background-color:#5f6253;
+  margin: auto;
+  opacity: .8;
+  color: white;
+}
+span
+{
+  color: #e79e47;
+}
+
+.logo {
+  float: center;
+  text-align: center;
+
+}
+/*-------------------------About-----------------------------------------*/
+h1
+{
+  text-align: center;
+}
+section .sec_img1
+{
+  height: 500px;
+  margin-top: 0px;
+  background-image: url("images/24.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1
+{
+  height: 480px;
+  width: 970px;
+  background-color:#300f00;
+  margin: auto;
+  opacity: .8;
+  color: white;
+}
+.box1 article div p {
+  font-family: Catamaran;
+  font-size: 15;
+  font-weight: 600;
+  line-height: 20px;
+  color: white;
+  text-transform: uppercase;
+  column-count: 3;
+  column-gap: 20px;
+
+}
+/*------------------------Travel------------------------------------*/
+section .sec_img2
+{
+  height: 500px;
+  margin-top: 0px;
+  background-image: url("images/15.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.column
+{
+  float: left;
+  width: 33.33%;
+  padding-left: 50px;
+}
+.row::after
+{
+  content: "";
+  clear: both;
+  display:table;
+}
+.row{
+  display: flex;
+}
+.column
+{
+flex: 33.33%;
+padding: 70px;
+}
+img:hover {
+transform: scale(1.3);
+}
+/*---------------------------contacts-------------------------------*/
+section .sec_img3
+{
+  height: 500px;
+  margin-top: 0px;
+  background-image: url("images/19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box3
+{
+  height: 350px;
+  width: 550px;
+  background-color:#414745;
+  margin: auto;
+  opacity: .8;
+  color: white;
+}
+span
+{
+  color: #e79e47;
+}
+/*------------------------------testimonial------------------------------*/
+section .sec_img4
+{
+  height: 500px;
+  margin-top: 0px;
+  background-image: url("images/24.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrappper1{
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'raleway',sans-serif;
+  color: #fff;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:1200px;
+  margin: 0 auto;
+}
+.card{
+  width: 380px;
+  height: 450px;
+  border-radius: 15px;
+  margin: 7px;
+  padding: 20px 30px;
+  position: relative;
+  background: rgba(255,225,225,0.2);
+  box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.card img{
+  height: 90px;
+  width: 90px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 20px
+}
+.card p{
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.card h4{
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+}
+.card i{
+  font-size: 60px;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  color: #b2bec3;
+}
+.card:hover{
+  transform: scale(1.4);
+  color: #333;
+  background: black;
+  z-index: 500;
+}
+
